@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Cristian Samson — Applied AI Developer">
+  <!-- Background -->
+  <rect width="1200" height="300" fill="#0B1220"/>
+
+  <!-- Subtle grid texture (very faint, adds depth without noise) -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1A2332" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" fill="url(#grid)" opacity="0.4"/>
+
+  <!-- Cyan accent bar -->
+  <rect x="80" y="90" width="4" height="120" fill="#22D3EE"/>
+
+  <!-- Name -->
+  <text x="110" y="125" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="48" font-weight="700" fill="#E2E8F0">
+    Cristian Samson
+  </text>
+
+  <!-- Title + location -->
+  <text x="110" y="165" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="500" fill="#94A3B8">
+    Applied AI Developer  ·  Montréal
+  </text>
+
+  <!-- Motto -->
+  <text x="110" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-style="italic" fill="#64748B">
+    Stay humble. Keep learning. Build things people actually use.
+  </text>
+</svg>
