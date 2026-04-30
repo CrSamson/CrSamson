@@ -47,7 +47,7 @@ Developing multi-agent systems on the Azure ecosystem.
 > Building with modern language model stacks.
 
 - **[PharmaOCR](https://github.com/CrSamson/PharmaOCR)** — LLM-powered OCR engine that reads and understands pharmaceutical documents. *Python · LangChain · OpenAI*
-- **[my-ai-news-aggregator](https://github.com/CrSamson/my-ai-news-aggregator)** — Personalized news digests via LLM summarization and automated email delivery. *Python · OpenAI*
+- **[brevio-ai](https://github.com/CrSamson/brevio-ai)** — Personalized news digests via LLM summarization and automated email delivery. *Python · OpenAI*
 - **[StaffBot](https://github.com/CrSamson/StaffBot)** *(Hackathon)* — Candidate-job matching with semantic analysis and multi-criteria scoring. *Python · LangChain · ChromaDB*
 
 ### 🚀 End-to-End / Production
