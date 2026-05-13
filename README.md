@@ -1,101 +1,66 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Cristian Samson — Applied AI Developer" width="100%"/>
+  <a href="https://www.cristiansamson.com"><strong>cristiansamson.com</strong></a> · Applied AI Engineer · Montréal
 </p>
 
 <p align="center">
+  <a href="https://www.cristiansamson.com"><img src="https://img.shields.io/badge/Portfolio-0f0c09?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNlOGE5NmEiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJtMyA5IDktNyA5IDd2MTFhMiAyIDAgMCAxLTIgMkg1YTIgMiAwIDAgMS0yLTJ6Ii8+PHBvbHlsaW5lIHBvaW50cz0iOSAyMiA5IDEyIDE1IDEyIDE1IDIyIi8+PC9zdmc+&logoColor=e8a96a" alt="Portfolio"/></a>
   <a href="https://www.linkedin.com/in/cristian-samson-4b7936bb/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:samsoncristian@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://cal.com/crsam/discovery-call"><img src="https://img.shields.io/badge/Book%20a%20call-e8a96a?style=for-the-badge&logoColor=black" alt="Book a call"/></a>
 </p>
 
 ---
 
-## 🚀 What I Ship
+I build production-grade AI systems in enterprise and personal contexts — RAG pipelines, LLM evaluation frameworks, process automation, and agentic workflows. 5+ years of software development experience including enterprise AI systems at scale.
 
-I build quick, smart, and scalable AI solutions for businesses looking to level up their operations — from sharpening fundamentals in notebooks, to shipping LLM-powered applications, to end-to-end systems in production.
-
-- **🧪 Foundational ML & Statistical Modeling** — notebook-based work that keeps the core sharp
-- **🤖 Applied LLM Engineering** — RAG systems, agents, document AI
-- **🚀 End-to-End AI Systems** — production-grade, deployed, monitored
+My background sits at the intersection of industrial engineering and data science. I obsess over the system around the model as much as the model itself.
 
 ---
 
-## 🔭 Currently Building
+## Shipped Projects
 
-**YouTube Compliance Workflow** — an LLMOps pipeline on Azure using a multi-agent architecture to automate content compliance review.
-*Azure · LangChain · multi-agent orchestration · LLMOps tooling*
+| Project | What it does | Stack |
+|---|---|---|
+| **[Brevio AI](https://github.com/CrSamson/brevio-ai)** | Daily AI news digest. Runs itself in production, $5/mo, zero maintenance. | GPT-4o · Neon Postgres · GitHub Actions |
+| **[StaffBot](https://github.com/CrSamson/StaffBot)** | AI candidate matching. Built in 24h at HEC hackathon. | LangChain · ChromaDB · Groq |
+| **[RunBot.ai](https://github.com/CrSamson/runbot.ai)** | Emails the best hour to run, every morning. Weather + calendar + scoring. | n8n · Open-Meteo · Gemini Flash |
+| **[PharmaOCR](https://github.com/CrSamson/PharmaOCR)** | Reads pharmaceutical documents locally. Zero cloud API calls. | Ollama · Granite-Docling · Streamlit |
 
-Repo goes public when it's ready.
+**FTR Prophet** (private) — Walk-forward LightGBM for energy trading. $5.3M simulated profit on out-of-sample backtest. HEC Data Challenge.
 
----
+## Research & Fundamentals
 
-## 📚 Now Learning
-
-Developing multi-agent systems on the Azure ecosystem.
-
----
-
-## 🏆 Highlighted Work
-
-### 🧪 Fundamentals & Notebooks
-> Clean, well-documented experiments grounded in classical ML and statistical theory.
-
-- **[Predicting-Heart-Disease](https://github.com/CrSamson/Predicting-Heart-Disease)** — Comparative study of KNN, Random Forest, XGBoost, and Neural Networks on clinical data. *Jupyter · scikit-learn · XGBoost*
-- **[Monte-Carlo-Simulation](https://github.com/CrSamson/Monte-Carlo-Simulation)** — Decision trees vs. random forests across 8 scenarios. *R*
-- **[Maintenance-Predictive](https://github.com/CrSamson/Maintenance-Predictive)** — Random Forest for predictive maintenance scheduling. *R*
-
-### 🤖 LLM & Applied AI
-> Building with modern language model stacks.
-
-- **[PharmaOCR](https://github.com/CrSamson/PharmaOCR)** — LLM-powered OCR engine that reads and understands pharmaceutical documents. *Python · LangChain · OpenAI*
-- **[brevio-ai](https://github.com/CrSamson/brevio-ai)** — Personalized news digests via LLM summarization and automated email delivery. *Python · OpenAI*
-- **[StaffBot](https://github.com/CrSamson/StaffBot)** *(Hackathon)* — Candidate-job matching with semantic analysis and multi-criteria scoring. *Python · LangChain · ChromaDB*
-
-### 🚀 End-to-End / Production
-> *In progress — see [Currently Building](#-currently-building) above.*
+| Repo | What | Stack |
+|---|---|---|
+| [Predicting-Heart-Disease](https://github.com/CrSamson/Predicting-Heart-Disease) | 6-model comparative benchmark on clinical data | scikit-learn · XGBoost |
+| [Maintenance-Predictive](https://github.com/CrSamson/Maintenance-Predictive) | Profit-optimized predictive maintenance | R · randomForest |
+| [Monte-Carlo-Simulation](https://github.com/CrSamson/Monte-Carlo-Simulation) | Decision trees vs random forests across 8 scenarios | R |
 
 ---
 
-## 🛠️ Tech Stack
+## Stack
 
-**Languages & Data**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=openjdk&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+**AI & LLMs** · LangChain · OpenAI · Claude · Azure OpenAI · LlamaIndex · ChromaDB · RAG · LLM-as-a-Judge
 
-**ML & AI**
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-191919?style=flat&logo=anthropic&logoColor=white)
-![Azure OpenAI](https://img.shields.io/badge/Azure%20OpenAI-0078D4?style=flat&logo=microsoftazure&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
-![LlamaIndex](https://img.shields.io/badge/LlamaIndex-3B82F6?style=flat&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat&logoColor=white)
+**ML** · PyTorch · scikit-learn · XGBoost · LightGBM · PySpark
 
-**Cloud & DevOps**
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+**Cloud & Infra** · Azure ML · Docker · MLflow · CI/CD · Git · PostgreSQL
 
-**Automation & Low-Code**
-![Power Apps](https://img.shields.io/badge/Power%20Apps-742774?style=flat&logo=powerapps&logoColor=white)
-![Power Automate](https://img.shields.io/badge/Power%20Automate-0066FF?style=flat&logo=powerautomate&logoColor=white)
-![Blue Prism](https://img.shields.io/badge/Blue%20Prism-061727?style=flat&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white)
+**Automation** · n8n · Blue Prism · Power Automate
+
+**Languages** · Python · SQL · R · Java · French · English
 
 ---
 
-## 🎓 Education
+## Education
 
-**HEC Montréal** — M.Sc. in Machine Learning
-**Polytechnique Montréal** — B.Eng. in Industrial Engineering & Applied Mathematics
+**HEC Montréal** — M.Sc. in Data Science
+
+**Polytechnique Montréal** — B.Eng. in Industrial Engineering
 
 ---
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/cristian-samson-4b7936bb/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:samsoncristian@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://www.cristiansamson.com">🌐 cristiansamson.com</a> · <a href="https://cal.com/crsam/discovery-call">📞 Book a call</a> · <a href="mailto:samsoncristian@gmail.com">✉️ samsoncristian@gmail.com</a>
 </p>
 
-<p align="center"><sub><i>Open to opportunities.</i></sub></p>
+<p align="center"><sub>Open to applied AI roles, freelance projects, and interesting collaborations.</sub></p>
